@@ -6,7 +6,7 @@ import {
   BookOpen, 
   Users, 
   Wallet, 
-  Switch,
+  ToggleLeft,
   Menu,
   X,
   Home,
