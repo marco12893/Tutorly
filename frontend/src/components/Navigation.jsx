@@ -102,7 +102,7 @@ const Navigation = () => {
                 size="sm"
                 className="flex items-center space-x-2"
               >
-                <Switch className="w-4 h-4" />
+                <ToggleLeft className="w-4 h-4" />
                 <span className="capitalize">{user.currentRole}</span>
                 <Badge 
                   variant={user.currentRole === 'student' ? 'default' : 'secondary'}
@@ -156,7 +156,7 @@ const Navigation = () => {
                 variant="outline"
                 className="w-full justify-start space-x-2"
               >
-                <Switch className="w-4 h-4" />
+                <ToggleLeft className="w-4 h-4" />
                 <span>Switch to {user.currentRole === 'student' ? 'Tutor' : 'Student'}</span>
                 <Badge 
                   variant={user.currentRole === 'student' ? 'default' : 'secondary'}
