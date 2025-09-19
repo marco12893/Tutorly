@@ -296,7 +296,7 @@ const Wallet = () => {
                           </SelectItem>
                           <SelectItem value="bank_transfer">
                             <div className="flex items-center space-x-2">
-                              <Bank className="w-4 h-4" />
+                              <Building className="w-4 h-4" />
                               <span>Bank Transfer</span>
                             </div>
                           </SelectItem>
@@ -376,7 +376,7 @@ const Wallet = () => {
                         <SelectContent>
                           <SelectItem value="bank">
                             <div className="flex items-center space-x-2">
-                              <Bank className="w-4 h-4" />
+                              <Building className="w-4 h-4" />
                               <span>Bank Transfer</span>
                             </div>
                           </SelectItem>
