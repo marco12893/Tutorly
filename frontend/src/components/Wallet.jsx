@@ -6,7 +6,7 @@ import {
   Plus, 
   Minus,
   CreditCard,
-  Bank,
+  Building,
   Smartphone,
   ArrowUpRight,
   ArrowDownLeft,
