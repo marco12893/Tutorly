@@ -14,6 +14,8 @@ import CreateRequest from './components/CreateRequest';
 import BrowseRequests from './components/BrowseRequests';
 import RequestDetails from './components/RequestDetails';
 import Wallet from './components/Wallet';
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
@@ -69,8 +71,8 @@ function App() {
       ...prev,
       wallet: {
         ...prev.wallet,
-        balance: type === 'add' 
-          ? prev.wallet.balance + amount 
+        balance: type === 'add'
+          ? prev.wallet.balance + amount
           : prev.wallet.balance - amount
       }
     }));
@@ -92,7 +94,7 @@ function App() {
       <Router>
         <div className="min-h-screen bg-slate-50">
           <Navigation />
-          
+
           <main className="pt-16">
             <Routes>
               <Route path="/" element={<Dashboard />} />
@@ -107,7 +109,7 @@ function App() {
             </Routes>
           </main>
 
-          <Toaster 
+          <Toaster
             position="top-right"
             richColors
             closeButton
